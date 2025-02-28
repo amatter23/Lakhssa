@@ -39,23 +39,9 @@ export default function Home() {
   };
 
   return (
-    // <div>
-    //   <h1>Ollama Summarizer</h1>
-    //   <form onSubmit={handleSubmit}>
-    //     <input
-    //       type="text"
-    //       value={input}
-    //       onChange={(e) => setInput(e.target.value)}
-    //       placeholder="Enter text..."
-    //     />
-    //     <button type="submit">Summarize</button>
-    //   </form>
-    //   {/* Properly handle newlines */}
-    //   <ReactMarkdown style={{ whiteSpace: "pre-wrap" }}>{output}</ReactMarkdown>
-    // </div>
     <main className={style.container}>
       <div className={style.content}>
-        <h1>Lakassha</h1>
+        <h1>Lakhssa</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
