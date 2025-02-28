@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <main className={style.container}>
       <div className={style.content}>
-        <h1>Lakhssa</h1>
+        <h1>Mukhtasar</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
